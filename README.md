@@ -15,7 +15,7 @@
 - Supermarket Ross (Management System)
 
 Project description 
--  Supermarket Management System that allows Customers as well as Admins explore the managemt system. You can add/modify/delete items within the program. Simply setup the enviroment (install lib etc)
+-  Supermarket Management System that allows Customers as well as Admins explore the management system. You can add/modify/delete items within the program. Simply setup the enviroment (install lib etc)
 
 #### Software & libraries used: 
 - Java, Libraries: javafx-fxml, jfoenix, mysql-connector-java-8.0.25 
@@ -34,4 +34,9 @@ Project description
 
 #### List of features yet to implement: 
 - Make everything SQL based connection and improve the UI 
+
+
+
+#### Author: 
+- Hamroz Gavharov
 
