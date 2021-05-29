@@ -26,6 +26,8 @@ Project description
 #### Planned App's features list: 
 - able to add/modify items (done) 
 - make authentication with SQL (done)
+- seperate interface for customers and admins
+- make verification for add/modify buttons (alert when the required field is empty or has wrong datatype) 
 
 #### List of completed features: 
 - all
