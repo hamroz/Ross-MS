@@ -1,6 +1,6 @@
 # OOP-FinalProject
 
-##Supermarket Ross (Management Systme)
+## Supermarket Ross (Management Systme)
 
 ### Creditentials (after creating/establishing SQL backend):
 #### Login: admin
