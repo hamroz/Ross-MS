@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="503.0" prefWidth="854.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="core.controller.LogController">
+    <children>
+          <TextField fx:id="txtUsername" layoutX="151.0" layoutY="96.0" prefHeight="25.0" prefWidth="120.0" promptText="username" />
+          <Separator layoutX="78.0" layoutY="244.0" prefHeight="7.0" prefWidth="275.0" />
+          <Label alignment="CENTER" layoutX="196.0" layoutY="233.0" prefHeight="23.0" prefWidth="31.0" style="-fx-background-color: #fff;" text="or" textFill="#5b5a5a">
+              <font>
+                  <Font name="Segoe UI" size="12.0" />
+              </font>
+          </Label>
+          <Label alignment="CENTER" layoutX="163.0" layoutY="56.0" prefHeight="23.0" prefWidth="101.0" text="Administrator" textFill="#5383ff">
+              <font>
+                  <Font size="10.0" />
+              </font>
+          </Label>
+          <PasswordField fx:id="txtPassword" layoutX="151.0" layoutY="135.0" prefHeight="25.0" prefWidth="120.0" promptText="password" stylesheets="@../styling/fullpackstyling.css" />
+          <Button fx:id="btnSignin" layoutX="179.0" layoutY="186.0" mnemonicParsing="false" onMouseClicked="#handleButtonAction" prefHeight="25.0" prefWidth="60.0" stylesheets="@../styling/fullpackstyling.css" text="Log in" />
+          <Button layoutX="76.0" layoutY="285.0" mnemonicParsing="false" onAction="#guestMode" prefHeight="52.0" prefWidth="275.0" style="-fx-background-color: #00acee;" text="Log in as Customer" textFill="WHITE" />
+      <AnchorPane layoutX="455.0" prefHeight="503.0" prefWidth="399.0" style="-fx-background-color: #00acee;">
+         <children>
+            <ImageView fitHeight="52.0" fitWidth="52.0" layoutX="166.0" layoutY="179.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/icons8_Google_Wallet_50px.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="105.0" layoutY="262.0" prefHeight="23.0" prefWidth="173.0" text="Supermarket Ross" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="18.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="89.0" layoutY="295.0" prefHeight="23.0" prefWidth="205.0" text="Manage your system" textFill="WHITE">
+               <font>
+                  <Font name="Segoe UI" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <Label fx:id="lblErrors" alignment="CENTER" layoutX="135.0" layoutY="164.0" prefHeight="17.0" prefWidth="151.0" textFill="#ff6354">
+         <font>
+            <Font name="Segoe UI" size="10.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>
